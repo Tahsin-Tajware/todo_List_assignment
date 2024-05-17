@@ -81,21 +81,29 @@ ul li {
     word-wrap: break-word;
     overflow-wrap: break-word;
     white-space: normal;
+    transition: background-color 0.3s ease; 
+}
+
+ul li:hover {
+    background-color: #82a6f2;
+    color: black;
+    border-radius: 10px;
 }
 
 ul li::before {
-    content:'';
+    content: '';
     position: absolute;
     height: 20px;
     width: 20px;
-    border-radius: 80%;
-    background-image: url(image/unchecked.png);
+    border-radius: 50%;
+    background-image: url('image/unchecked.png');
     background-size: cover;
     background-position: center;
-    top: 12px;
-    left: 1px;
-
+    top: 50%;
+    transform: translateY(-50%);
+    left: -30px; /* Move the button more to the left */
 }
+
 
 ul li.checked::before{
     background-image: url(image/checked.png);
