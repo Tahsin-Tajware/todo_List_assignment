@@ -1,5 +1,11 @@
+
+body{
+    background: url(image/wallpaper.avif);
+}
+
+
 .container {
-    background: linear-gradient(135deg, #1443a2, #ba29de);
+    /* background: linear-gradient(135deg, #1443a2, #ba29de); */
     max-width: 100%;
     min-height: 100vh;
     margin: 1px auto;
@@ -10,8 +16,8 @@
 header {
 
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #43cdff;
+    font-family:monospace;
+    background-color: #7c02cd;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 10px;
@@ -101,7 +107,7 @@ ul li::before {
     background-position: center;
     top: 50%;
     transform: translateY(-50%);
-    left: -30px; /* Move the button more to the left */
+    left: -30px; 
 }
 
 
