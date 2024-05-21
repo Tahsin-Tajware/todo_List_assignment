@@ -5,7 +5,7 @@ body{
 
 
 .container {
-    /* background: linear-gradient(135deg, #1443a2, #ba29de); */
+
     max-width: 100%;
     min-height: 100vh;
     margin: 1px auto;
@@ -152,4 +152,48 @@ ul li span:hover{
 #removeChecked:hover {
     background-color: red;
     color: white;
+}
+
+
+
+button {
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: initial;
+}
+
+button.edit {
+    background-color: #ffc107;
+    margin-left: 10px;
+    padding: 5px 10px;
+}
+
+button.edit:hover {
+    background-color: #e0a800;
+}
+
+ul li {
+    text-align: left;
+    list-style: none;
+    user-select: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+    font-size: large;
+    padding: 12px 8px 12px 30px;
+    position: relative;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    transition: background-color 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #82a6f2;
+    color: black;
+    border-radius: 10px;
 }
