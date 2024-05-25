@@ -1,8 +1,8 @@
-const inputBox = document.getElementById('todoInput');
-const todoList = document.getElementById('todo-list');
-const removeCheckedButton = document.getElementById('removeChecked');
+const inputBox = document.getElementById('todoInput'); //text input newar jonno
+const todoList = document.getElementById('todo-list'); // add to-do
+const removeCheckedButton = document.getElementById('removeChecked'); // delete korar jonno
 
-function addTask() {
+function addTask() { // to-do add 
     if (inputBox.value === '') {
         alert("You must write something!");
     } else {

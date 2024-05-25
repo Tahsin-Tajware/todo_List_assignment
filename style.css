@@ -7,7 +7,7 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: url('image/wallpaper.avif') no-repeat center center fixed;
+    background: url('image/1.jpg') no-repeat center center fixed;
     background-size: cover;
     min-height: 90vh;
     display: flex;
@@ -33,24 +33,6 @@ header {
     font-family: monospace;
     font-size: 15px; 
     animation: colorChange 7s infinite;
-}
-
-@keyframes colorChange {
-    0% {
-        background-color: #7c02cd;
-    }
-    25% {
-        background-color: #007bff;
-    }
-    50% {
-        background-color: #0def73;
-    }
-    75% {
-        background-color: #6f1c09;
-    }
-    100% {
-        background-color: #7c02cd;
-    }
 }
 
 .todo_box {
